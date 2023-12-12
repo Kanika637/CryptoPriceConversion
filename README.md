@@ -14,7 +14,7 @@
 
 &nbsp;
 
-2. http://localhost:3001/getPriceOnDate?fromCurrency=bitcoin&toCurrency=usd&date=12-01-2023
+2. http://localhost:3001/getPrice?fromCurrency=bitcoin&toCurrency=usd&date=12-01-2023
 
 This API which is running on localhost:3001, will give you the price of one currency for another currency on a particular date, where:
 
