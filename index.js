@@ -1,6 +1,6 @@
 const express = require('express');
 const { connectToMongoDB } = require('./db');
-const { getListOfCryptocurrencies, saveCryptoListToMongoDB } = require('./cryptoService');
+const { getListOfCryptocurrencies, saveCryptoListToMongoDB } = require('./cryptoStuff');
 
 const app = express();
 const PORT = 3000;
